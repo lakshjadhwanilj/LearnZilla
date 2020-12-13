@@ -1,0 +1,22 @@
+{
+  "name": "learnzilla",
+  "version": "1.0.0",
+  "description": "MERN E-Learning App",
+  "main": "server.js",
+  "scripts": {
+    "start": "node backend/server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lakshjadhwanilj/LearnZilla.git"
+  },
+  "author": "Laksh Jadhwani",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lakshjadhwanilj/LearnZilla/issues"
+  },
+  "homepage": "https://github.com/lakshjadhwanilj/LearnZilla#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}

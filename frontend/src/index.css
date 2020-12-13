@@ -9,3 +9,15 @@ h3 {
 .rating span {
     margin: 0.1rem;
 }
+
+.product {
+    border: solid 1px #9aa7b2;
+    border-bottom: solid #9aa7b2 5px;
+    border-right: solid #9aa7b2 5px;
+    border-bottom-left-radius: 50%;
+    border-top-right-radius: 50%;
+}
+
+.footer-text {
+    color: #2e343e;
+}

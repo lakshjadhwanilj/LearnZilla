@@ -15,7 +15,7 @@ const ProductScreen = ({ match }) => {
             setProduct(data)
         }
         fetchProduct()
-    }, [])
+    }, [match])
 
     return (
         <>
@@ -32,13 +32,13 @@ const ProductScreen = ({ match }) => {
                             <h3>{ product.name }</h3>
                         </ListGroup.Item>
                         <ListGroup.Item>
-                            <Rating value={product.rating} text={`${product.numReviews} reviews`} />
+                            <Rating value={ product.rating } text={`${ product.numReviews } reviews`} />
                         </ListGroup.Item>
                         <ListGroup.Item>
-                            Price: ${product.price}
+                            Price: ${ product.price }
                         </ListGroup.Item>
                         <ListGroup.Item>
-                            Description: {product.description}
+                            Description: { product.description }
                         </ListGroup.Item>
                     </ListGroup>
                 </Col>
